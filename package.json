@@ -1,0 +1,30 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "An app to assist with finding your perfect friend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoHampton/FriendFinder.git"
+  },
+  "keywords": [
+    "social",
+    "friend",
+    "finder"
+  ],
+  "author": "MoHampton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MoHampton/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/MoHampton/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "path": "^0.12.7"
+  }
+}
