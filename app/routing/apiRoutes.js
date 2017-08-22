@@ -34,7 +34,7 @@ module.exports = function(app) {
   app.post("/api/friends", function(req, res) {
     // Note the code here. Our "server" will respond to requests and let users know if they have a table or not.
     // It will do this by sending out the value "true" have a table
-      friendsData.push(req.body);
+      peopleArr.push(req.body);
       res.json(true);
   });
 
@@ -44,9 +44,9 @@ module.exports = function(app) {
 
   app.post("/api/clear", function() {
     // Empty out the arrays of data
-    friendsData = [];
+    peopleArr = [];
  
 
-    console.log(friendsData);
+    console.log(peopleArr);
   });
 };
